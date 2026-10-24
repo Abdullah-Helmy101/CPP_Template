@@ -9,6 +9,6 @@ add_executable(change_Me
     src/main.cpp
 )
 
-target_include_directories(
+target_include_directories(change_Me PRIVATE
     ${CMAKE_INCLUDE_CURRENT_DIR}/include
 )
